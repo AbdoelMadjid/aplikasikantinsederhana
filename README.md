@@ -2,7 +2,7 @@
 ![Gambar Aplikasi](http://i1087.photobucket.com/albums/j474/Zulfindra_Juliant/aplikasi-kantin_zps68a41c51.jpg)
 
 ##Tentang Aplikasi
-- Dengan Boostrap 3.3.1 CDN
+- Dengan Boostrap 3.3.1
 - Pure Javascript
 - Slim Framework (Hanya Routing and Template render)
 
