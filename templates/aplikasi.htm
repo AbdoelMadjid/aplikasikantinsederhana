@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Aplikasi Kantin Sederhana</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="assets/img/aplikasi.ico">
+	<!-- plugin css -->
+	<link rel="stylesheet"href="assets/css/boot.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<!-- plugin js -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<script src="http://mymaplist.com/js/vendor/TweenLite.min.js"></script>
+<body>
+	<div id="fullloader">
+		<div id="loading-font" class="fa fa-circle-o-notch fa-spin fa-3x"></div>
+	</div>
+	<div class="container" style="margin-top:20px;">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h4 class="panel-title"><i class="glyphicon glyphicon-shopping-cart"></i> Pemesanan</h4>
+			</div>
+			<div class="panel-body">
+				<form name="pemesanan">
+					<?php require_once 'tabel_bayar.htm';?>
+					<button type="button" class="btn btn-warning" onMouseUp="Logout()"><i class="glyphicon glyphicon-log-out"></i> Keluar Aplikasi</button>
+					<button type="button" class="btn btn-danger" onMouseUp="resetForm()"><i class="glyphicon glyphicon-trash"></i> Hapus</button>
+					<button type="button" class="btn btn-success" onMouseUp="Print()"><i class="glyphicon glyphicon-print"></i> Print</button>
+					<button type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#pembuat"><i class="glyphicon glyphicon-thumbs-up"></i> Tentang Pembuat</button>
+					<?php require_once 'modal_tentang.htm';?>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="assets/js/app.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

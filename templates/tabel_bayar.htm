@@ -1,0 +1,81 @@
+<table class="table table-bordered table-striped">
+	<thead>
+		<tr>
+			<th><i class="glyphicon glyphicon-bookmark"></i> No</th>
+			<th><i class="glyphicon glyphicon-list"></i> Makanan/Minuman</th>
+			<th><i class="glyphicon glyphicon-tag"></i> Harga</th>
+			<th><i class="glyphicon glyphicon-edit"></i> Pesan</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>Sate Padang</td>
+			<td>
+				<div class="input-group">
+					<span class="input-group-addon">Rp</span>
+					<input class="form-control" type="text" value="15000" size="6" readonly>
+				</div>
+			</td>
+			<td><input class="form-control" type="text" name="hargaSate" value="0" onchange="hitungPesan()"></td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Mie Ayam</td>
+			<td>
+				<div class="input-group">
+					<span class="input-group-addon">Rp</span>
+					<input class="form-control" type="text" value="8000" size="6" readonly>
+				</div>
+			</td>
+			<td><input class="form-control" type="text" name="hargaMie" value="0" onchange="hitungPesan()"></td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Mie Ayam Bakso</td>
+			<td>
+				<div class="input-group">
+					<span class="input-group-addon">Rp</span>
+					<input class="form-control" type="text" value="10000" size="6" readonly>
+				</div>
+			</td>
+			<td><input class="form-control" type="text" name="hargaBakso" value="0" onchange="hitungPesan()"></td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Es Kelapa Muda</td>
+			<td>
+				<div class="input-group">
+					<span class="input-group-addon">Rp</span>
+					<input class="form-control" type="text" value="5000" size="6" readonly>
+				</div>
+			</td>
+			<td><input class="form-control" type="text" name="hargaKelapa" value="0" onchange="hitungPesan()">
+			</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>Es Buah Mangga</td>
+			<td>
+				<div class="input-group">
+					<span class="input-group-addon">Rp</span>
+					<input class="form-control" type="text" value="7000" size="6" readonly>
+				</div>
+			</td>
+			<td><input class="form-control" type="text" name="hargaBuah" value="0" onchange="hitungPesan()">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" align="right">Jumlah Total</td>
+			<td><input class="form-control" type="text" name="Total" readonly="true"></td>
+		</tr>
+		<tr>
+			<td colspan="3" align="right">PPN 10%</td>
+			<td><input class="form-control" type="text" name="Pajak" readonly="true"></td>
+		</tr>
+		<tr>
+			<td colspan="3" align="right">Jumlah Dibayar</td>
+			<td><input class="form-control" type="text" name="Bayar" readonly="true" align="right"></td>
+		</tr>
+	</tbody>
+</table>
