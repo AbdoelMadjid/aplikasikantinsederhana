@@ -5,6 +5,8 @@
 - Dengan Boostrap 3.3.1
 - Pure Javascript
 - Slim Framework (Hanya Routing and Template render)
+- Terima kasih kepada [Kaptenn](http://bootsnipp.com/snippets/featured/parallax-login-form-reload) untuk snippet loginnya :)
+- Follow Github saya ya :) [Zulfindra's Github](http://github.com/zulfinjuliant/)
 
 ##Cara Instalasi (Local Web Server)
 - pertama download source-nya dari sini [Download Source](https://github.com/zulfinjuliant/aplikasikantinsederhana/archive/master.zip)
